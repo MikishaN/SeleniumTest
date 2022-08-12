@@ -8,6 +8,6 @@ def test_check_title(open_main_page):
     """
     home_page = open_main_page
     home_page_title = home_page.get_page_title()
-    assert home_page_title == 'Лайфстайл', f'Expected: Лайфстайл \n Actual: {home_page_title}'
+    assert home_page_title == 'Biblio Favorites', f'Biblio Favorites \n Actual: {home_page_title}'
 
 
