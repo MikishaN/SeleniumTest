@@ -15,7 +15,6 @@ def create_driver():
 @pytest.fixture()
 def open_main_page(create_driver):
     driver = create_driver
-    driver.get('http://localhost:3000/')
+    driver.get('https://immigrantinvest.com/ru/blog/souvenirs-from-spain-and-portugal/')
     main_page = MainPage(driver)
-    main_page.click_dismiss_button()
     return main_page

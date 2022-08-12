@@ -20,7 +20,7 @@ class DriverFactory:
             # driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
             driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
-      #  else:
-       #     driver = webdriver.Chrome(ChromeDriverManager().install())
+        else:
+            driver = webdriver.Chrome(ChromeDriverManager().install())
 
         return driver
