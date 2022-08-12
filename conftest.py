@@ -15,6 +15,6 @@ def create_driver():
 @pytest.fixture()
 def open_main_page(create_driver):
     driver = create_driver
-    driver.get('https://immigrantinvest.com/ru/blog/souvenirs-from-spain-and-portugal/')
+    driver.get('https://www.biblio.com/'')
     main_page = MainPage(driver)
     return main_page
