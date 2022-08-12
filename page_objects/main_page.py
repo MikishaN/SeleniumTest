@@ -2,7 +2,7 @@ import random
 
 from selenium.webdriver.common.by import By
 
-from Final_test.unilities.web_ui.base_page import BasePage
+from unilities.web_ui.base_page import BasePage
 
 
 class MainPage(BasePage):
